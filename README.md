@@ -72,3 +72,18 @@ As time goes on, you find a good balance between **exploration** and **exploitat
 - **Exploration**: However, there's always the chance that another stall might be serving even better momos. To make sure you're not missing out, you decide to explore other stalls **20% of the time** to see if there's a hidden gem you haven’t discovered yet.
 
 ---
+So here :
+- **Environment:**  
+  The environment consists of **momos stalls in Paltan Bazaar**, each offering a variety of momos with different tastes, prices, and quality.
+  
+- **Actions:**  
+  Actions refer to the choices you can make within the environment:
+  - **Explore**: Try a new momos stall to discover potentially better options.
+  - **Exploit**: Stick with the known best momos stall that consistently serves delicious momos.
+
+- **Reward:**  
+  The reward is the feedback you receive from the environment based on your actions:
+  - **Positive reward**: A new momos stall serves better momos than your favorite one, leading to higher satisfaction.
+  - **Negative reward**: The new stall doesn’t meet expectations, or the momos aren't as good as you thought, resulting in dissatisfaction.
+----
+
