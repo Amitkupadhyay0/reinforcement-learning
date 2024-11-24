@@ -87,3 +87,7 @@ So here :
   - **Negative reward**: The new stall doesn’t meet expectations, or the momos aren't as good as you thought, resulting in dissatisfaction.
 ----
 
+Great, so we have become fimilar with certain terms ,now lets see how a rl agent can be modeled :
+> We have to follow certain steps
+
+
