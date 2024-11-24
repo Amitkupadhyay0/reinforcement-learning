@@ -1,4 +1,4 @@
-<h1 align="center" style="color:blue;">Reinforcement Learning: Tic-Tac-Toe AI</h1>
+<h1 align="center" style="color:blue;">Reinforcement Learning</h1>
 
 ## **Why Reinforcement Learning?**
 
