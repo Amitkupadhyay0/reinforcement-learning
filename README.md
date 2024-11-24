@@ -12,21 +12,63 @@ Because RL is behind the technology that’s making your favorite apps smarter, 
 
 ---
 
-## In this repository, let's explore RL using a simple game of Tic-Tac-Toe.
+## Let's Explore Reinforcement Learning
 
 ---
 
-> **Exploration vs Exploitation**
-> 
+### **Exploration vs Exploitation**
+
 > Imagine you’re in **Guwahati**, walking down **Paltan Bazaar**, deciding where to grab a quick bite.
 
 - **Exploitation**: You’ve been to the same **momos** stall for a long time, and you know their momos are always fresh and delicious. You choose to go there again because you know you’ll enjoy them every time.
+  
 - **Exploration**: But there’s another **momos** stall nearby that you’ve never tried before. You’re not sure if their momos are as good, but you decide to give them a try, hoping to discover something new and maybe even better.
 
 At first, you might explore and try the new stall, but after a few visits, you’ll start to notice which momos taste better or have a better price. Eventually, you’ll start going to the stall that you like the most. Over time, you’ll strike the perfect balance between exploring new momos stalls to discover hidden gems and sticking to the one that consistently delivers the best taste and satisfaction.
 
 In **Reinforcement Learning**, this process is similar. Initially, the algorithm might try different actions (exploration) to learn about possible outcomes. But as it learns from the feedback, it starts to focus on the actions that give the best results (exploitation). As the learning process continues, the algorithm converges to a point where it consistently makes the best choices, just like you will keep going to the momos stall that suits your taste the most!
 
+---
 
+## **Epsilon-Greedy Approach**
 
+Imagine this: Every Sunday, you eat momos, and you’ve decided to make this a weekly ritual—52 times a year. Over time, you've built a preference for a particular momos stall that consistently serves the best momos. However, you don’t want to miss out on the possibility of discovering a better stall, so you decide to balance exploration and exploitation.
 
+### **Decision-Making Process (Using the Cheat Sheet)**
+
+Imagine every Sunday, you have to decide whether to visit your favorite momos stall or explore a new one. You’ve created a cheat sheet with **5 numbers** (1 to 5), and here's the rule:
+
+- If the number you draw is **5**, you explore a new momos stall.
+- For any number between **1 to 4**, you exploit your favorite, trusted momos stall.
+
+In this case, **80% of the time** (when you draw a number between 1 and 4), you stick to your best-known momos stall (exploitation). But **20% of the time** (when you draw number 5), you venture out and explore a new stall (exploration).
+
+### **How It Works Over Time:**
+
+- **When Numbers 1 to 4 (80% Chance)**: You stick to your favorite momos stall. This is your **exploitation phase**, where you know exactly what to expect—tasty momos and satisfaction every time.
+  
+- **When Number 5 (20% Chance)**: Occasionally, you draw the number 5, and you decide to try a new momos stall. This is your **exploration phase**, where you step out of your comfort zone, hoping to find something even better.
+
+By following this method, you're creating a healthy balance between **exploration** and **exploitation**. Over time, you get to enjoy the best-known option while also keeping your choices fresh by trying new places now and then.
+
+---
+
+### **In Reinforcement Learning Terms:**
+
+This is similar to the **epsilon-greedy strategy** in Reinforcement Learning:
+
+- **Epsilon (ε)** is the **probability of exploration**. In this case, **20%** (1 out of 5).
+- **Exploit**: **80% of the time** (numbers 1–4), you choose the best-known action (your favorite momos stall).
+- **Explore**: **20% of the time** (number 5), you try something new, hoping to discover a better reward (a better momos stall).
+
+As time goes on, you find a good balance between **exploration** and **exploitation**, much like how RL algorithms learn to explore new options while exploiting the best-known ones to maximize overall rewards.
+
+---
+
+### **Here's how you set it up:**
+
+- **Exploitation**: You know that one particular stall consistently serves the best momos, and you're confident that you'll enjoy their food every time. So, you decide to exploit your knowledge and visit that stall **80% of the time**.
+  
+- **Exploration**: However, there's always the chance that another stall might be serving even better momos. To make sure you're not missing out, you decide to explore other stalls **20% of the time** to see if there's a hidden gem you haven’t discovered yet.
+
+---
