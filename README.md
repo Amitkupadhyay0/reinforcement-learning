@@ -17,6 +17,10 @@ Because RL is behind the technology that’s making your favorite apps smarter, 
 ---
 
 ### **Exploration vs Exploitation**
+<div align="center">
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/guwahati.jpg" width="45%" height="auto" style="margin-right: 5%;">
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/Momo.jpg" width="45%" height="auto">
+</div>
 
 > Imagine you’re in **Guwahati**, walking down **Paltan Bazaar**, deciding where to grab a quick bite.
 
