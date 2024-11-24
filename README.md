@@ -9,3 +9,14 @@ This is **Reinforcement Learning (RL)** in action. It learns from your choices a
 ### **So, why should you care?**
 
 Because RL is behind the technology that’s making your favorite apps smarter, and it’s shaping the future of how machines understand us.
+
+---
+
+## In this repository, let's explore RL using a simple game of Tic-Tac-Toe.
+
+---
+
+> **Exploration vs Exploitation**
+> 
+> In Reinforcement Learning, **exploration** refers to trying new actions to discover better long-term strategies, while **exploitation** is about choosing the best-known actions based on past experiences. Striking the right balance between exploration and exploitation is crucial for an efficient RL model.
+
