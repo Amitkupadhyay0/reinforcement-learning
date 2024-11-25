@@ -106,6 +106,18 @@ Great, so we have become fimilar with certain terms ,now lets see how a rl agent
 7. **Reward Function**: Maps state-action pairs to a reward signal.
 8. **Value Function**: Estimates future rewards starting from a specific state.
 
+## Aim of a Reinforcement Learning (RL) Agent
+
+The aim of a Reinforcement Learning (RL) agent is:
+
+**To maximize the cumulative reward over time.**
+
+This means the agent learns to take actions that result in the highest possible long-term reward, not just immediate rewards, by interacting with the environment and improving its policy (strategy) through experience.
+
+<div align="center">
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/rl_agent.webp" width="45%" height="200px">
+</div>
+
 
 
 
