@@ -118,6 +118,34 @@ This means the agent learns to take actions that result in the highest possible 
   <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/rl_agent.webp" width="45%" height="200px">
 </div>
 
+<h1>How a Reinforcement Learning (RL) Model Works</h1>
+
+<ol>
+    <li>
+        <strong>Initialization:</strong> 
+        The agent starts with no knowledge and initializes a policy or value function.
+    </li>
+    <li>
+        <strong>Interaction with Environment:</strong> 
+        The agent takes an <em>action</em> in the <em>environment</em> based on its current <em>state</em>.
+    </li>
+    <li>
+        <strong>Receive Feedback:</strong> 
+        The environment provides a <em>reward</em> and transitions the agent to a new <em>state</em>.
+    </li>
+    <li>
+        <strong>Policy Update:</strong> 
+        The agent updates its policy using the reward signal to improve future actions.
+    </li>
+    <li>
+        <strong>Repeat:</strong> 
+        Steps 2–4 are repeated over many episodes until the agent learns an optimal policy to maximize cumulative rewards.
+    </li>
+</ol>
+
+<p>The RL model continuously refines its strategy, balancing exploration (trying new actions) and exploitation (choosing known rewarding actions) to achieve its goal.</p>
+
+
 
 
 
