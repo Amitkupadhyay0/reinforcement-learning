@@ -40,7 +40,9 @@ In **Reinforcement Learning**, this process is similar. Initially, the algorithm
 Imagine this: Every Sunday, you eat momos, and you’ve decided to make this a weekly ritual—52 times a year. Over time, you've built a preference for a particular momos stall that consistently serves the best momos. However, you don’t want to miss out on the possibility of discovering a better stall, so you decide to balance exploration and exploitation.
 
 ### **Decision-Making Process (Using the Cheat Sheet)**
-<img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/paper_sheet_game.png" width="45%" height="200px">
+<div align="center">
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/paper_sheet_game.png" width="45%" height="200px">
+</div>
 Imagine every Sunday, you have to decide whether to visit your favorite momos stall or explore a new one. You’ve created a cheat sheet with **5 numbers** (1 to 5), and here's the rule:
 
 - If the number you draw is **5**, you explore a new momos stall.
