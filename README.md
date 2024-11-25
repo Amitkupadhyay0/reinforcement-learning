@@ -96,6 +96,17 @@ So here :
 ----
 
 Great, so we have become fimilar with certain terms ,now lets see how a rl agent can be modeled :
-> We have to follow certain steps
+> Key terms :
+1. **Agent**: The decision-maker or learner.
+2. **Environment**: The world the agent interacts with.
+3. **State**: The current situation the agent is in.
+4. **Action**: The set of moves the agent can take.
+5. **Reward**: Feedback received after an action, guiding the agent.
+6. **Policy**: The agent’s strategy to choose actions based on the state.
+7. **Reward Function**: Maps state-action pairs to a reward signal.
+8. **Value Function**: Estimates future rewards starting from a specific state.
+
+
+
 
 
