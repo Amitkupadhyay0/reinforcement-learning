@@ -168,7 +168,9 @@ This means the agent learns to take actions that result in the highest possible 
         <strong>Aim:</strong> To learn an optimal strategy that maximizes rewards by winning as many games as possible or minimizing losses.
     </li>
 </ul>
-
+<div align="center">
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/game_board.png" width="45%" height="200px">
+</div>
 
 
 
