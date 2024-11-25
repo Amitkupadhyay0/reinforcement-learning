@@ -144,6 +144,30 @@ This means the agent learns to take actions that result in the highest possible 
 </ol>
 
 <p>The RL model continuously refines its strategy, balancing exploration (trying new actions) and exploitation (choosing known rewarding actions) to achieve its goal.</p>
+<h1 style="color:red; text-align:center;"><strong>Tic-Tac-Toe Game</strong></h1>
+
+<ul>
+    <li>
+        <strong>Environment:</strong> A 3x3 board where the game is played. The environment changes as the agent (player) and opponent place their marks (X or O) on the board.
+    </li>
+    <li>
+        <strong>State:</strong> The current configuration of the 3x3 board. For example, an empty board at the start, or a partially filled board during the game.
+    </li>
+    <li>
+        <strong>Action:</strong> The agent’s move—choosing an empty cell to place its mark (X or O).
+    </li>
+    <li>
+        <strong>Reward:</strong> Feedback for the agent:
+        <ul>
+            <li><strong>+1:</strong> If the agent wins the game.</li>
+            <li><strong>0:</strong> If the game ends in a draw (tie).</li>
+            <li><strong>-1:</strong> If the agent loses the game.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Aim:</strong> To learn an optimal strategy that maximizes rewards by winning as many games as possible or minimizing losses.
+    </li>
+</ul>
 
 
 
