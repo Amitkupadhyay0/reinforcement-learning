@@ -213,9 +213,8 @@ Below is the architecture of the RL agent framework for the game:
 7. **Define a Function to Update Q-Values:**  
    - Use the Bellman Equation to update Q-values based on the reward and the next state.
 <div align="center">
-  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/tree/main/images" 
-       alt="RL Framework" width="50%" height="200px">
-
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/tree/main/images"  width="50%" height="200px">
+</div>
 8. **Train the Model:**  
    - Train over a certain number of episodes where AI plays against itself.  
    - Continuously update the Q-table during training.
