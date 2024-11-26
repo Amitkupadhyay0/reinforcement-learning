@@ -172,8 +172,6 @@ This means the agent learns to take actions that result in the highest possible 
   <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/game_board.png" width="45%" height="200px">
 </div>
 
-<h1 style="text-align:center; color:#FF5733;"><strong>Architecture of RL Agent Framework for Tic-Tac-Toe</strong></h1>
-
 # Architecture of RL Agent Framework for Tic-Tac-Toe
 
 Below is the architecture of the RL agent framework for the game:
@@ -214,6 +212,9 @@ Below is the architecture of the RL agent framework for the game:
 
 7. **Define a Function to Update Q-Values:**  
    - Use the Bellman Equation to update Q-values based on the reward and the next state.
+<div align="center">
+  <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/tree/main/images" 
+       alt="RL Framework" width="50%" height="200px">
 
 8. **Train the Model:**  
    - Train over a certain number of episodes where AI plays against itself.  
