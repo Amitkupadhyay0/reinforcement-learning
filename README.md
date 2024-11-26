@@ -174,88 +174,55 @@ This means the agent learns to take actions that result in the highest possible 
 
 <h1 style="text-align:center; color:#FF5733;"><strong>Architecture of RL Agent Framework for Tic-Tac-Toe</strong></h1>
 
-<p><strong>Below is the architecture of the RL agent framework for the game:</strong></p>
+# Architecture of RL Agent Framework for Tic-Tac-Toe
+
+Below is the architecture of the RL agent framework for the game:
+
 <div align="center">
   <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/model_art_full.png" 
        alt="RL Framework" width="50%" height="200px">
 </div>
 
-<h2 style="color:#28B463;">Steps to Follow:</h2>
+## Steps to Follow:
 
-<ol>
-    <li>
-        <strong style="color:#8E44AD;">Define the 3x3 Game Board (Environment):</strong> 
-        <ul>
-            <li style="color:#5DADE2;">Can be represented as a numpy array of size 9 (3x3), all initialized with zeros.</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Define the Action Space:</strong>
-        <ul>
-            <li style="color:#5DADE2;">All possible moves in the game, represented as tuples of row and column indices.</li>
-        </ul>
-        <div align="center">
-          <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/intital_board.png" 
-               alt="Initial Game Board" width="50%" height="200px">
-        </div>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Define Moves on the Board:</strong>
-        <ul>
-            <li style="color:#5DADE2;">All values in the board start as 0.</li>
-            <li style="color:#5DADE2;">Mark <code>-1</code> if AI chooses a position, and <code>1</code> if the Human chooses a position.</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Define a Function to Check the Game Status:</strong>
-        <ul>
-            <li style="color:#5DADE2;">Check rows, columns, and diagonals for a win (all <code>1</code> or all <code>-1</code>).</li>
-            <li style="color:#5DADE2;">Check if the game ends in a draw (no possible moves left).</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Initialize a Q-Table:</strong>
-        <ul>
-            <li style="color:#5DADE2;">The Q-table is a dictionary.</li>
-            <li style="color:#5DADE2;">Keys: Board representation (state).</li>
-            <li style="color:#5DADE2;">Values: Associated rewards.</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Define Epsilon-Greedy Approach:</strong>
-        <ul>
-            <li style="color:#5DADE2;">A strategy to balance exploration (random moves) and exploitation (using learned Q-values).</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Define a Function to Update Q-Values:</strong>
-        <ul>
-            <li style="color:#5DADE2;">Use the Bellman Equation to update Q-values based on the reward and next state.</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Train the Model:</strong>
-        <ul>
-            <li style="color:#5DADE2;">Train over a certain number of episodes where AI plays against itself.</li>
-            <li style="color:#5DADE2;">Continuously update the Q-table during training.</li>
-        </ul>
-    </li>
-    
-    <li>
-        <strong style="color:#8E44AD;">Play HUMAN vs AI:</strong>
-        <ul>
-            <li style="color:#5DADE2;">Use the trained Q-table for the AI to take actions.</li>
-            <li style="color:#5DADE2;">While playing with a human, the AI continues to update the Q-table to improve further.</li>
-        </ul>
-    </li>
-</ol>
+1. **Define the 3x3 Game Board (Environment):**  
+   - Represented as a numpy array of size 9 (3x3), all initialized with zeros.
+
+2. **Define the Action Space:**  
+   - All possible moves in the game, represented as tuples of row and column indices.
+
+   <div align="center">
+     <img src="https://github.com/Amitkupadhyay0/reinforcement-learning/blob/main/images/intital_board.png" 
+          alt="Initial Game Board" width="50%" height="200px">
+   </div>
+
+3. **Define Moves on the Board:**  
+   - All values in the board start as 0.  
+   - Mark `-1` if AI chooses a position, and `1` if the Human chooses a position.
+
+4. **Define a Function to Check the Game Status:**  
+   - Check rows, columns, and diagonals for a win (all `1` or all `-1`).  
+   - Check if the game ends in a draw (no possible moves left).
+
+5. **Initialize a Q-Table:**  
+   - The Q-table is a dictionary.  
+   - **Keys:** Board representation (state).  
+   - **Values:** Associated rewards.
+
+6. **Define Epsilon-Greedy Approach:**  
+   - A strategy to balance exploration (random moves) and exploitation (using learned Q-values).
+
+7. **Define a Function to Update Q-Values:**  
+   - Use the Bellman Equation to update Q-values based on the reward and the next state.
+
+8. **Train the Model:**  
+   - Train over a certain number of episodes where AI plays against itself.  
+   - Continuously update the Q-table during training.
+
+9. **Play HUMAN vs AI:**  
+   - Use the trained Q-table for the AI to take actions.  
+   - While playing with a human, the AI continues to update the Q-table to improve further.
+
 
 
 
